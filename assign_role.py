@@ -1,4 +1,6 @@
 # assign_role.py
+import sys
+import types
 sys.modules["audioop"] = types.ModuleType("audioop")
 import discord
 

@@ -1,4 +1,6 @@
 # onboarding_button.py
+import sys
+import types
 sys.modules["audioop"] = types.ModuleType("audioop")
 import discord
 from introduction_flow import start_introduction  # reuse the DM Q&A function

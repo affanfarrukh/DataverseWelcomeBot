@@ -1,4 +1,6 @@
 # introduction_flow.py
+import sys
+import types
 sys.modules["audioop"] = types.ModuleType("audioop")
 import discord
 import asyncio
