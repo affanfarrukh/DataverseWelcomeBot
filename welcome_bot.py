@@ -1,3 +1,4 @@
+sys.modules["audioop"] = types.ModuleType("audioop")
 import discord
 import os
 from dotenv import load_dotenv

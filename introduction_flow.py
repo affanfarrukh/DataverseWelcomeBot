@@ -1,4 +1,5 @@
 # introduction_flow.py
+sys.modules["audioop"] = types.ModuleType("audioop")
 import discord
 import asyncio
 from assign_role import assign_role_to_member

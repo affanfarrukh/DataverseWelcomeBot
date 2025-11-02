@@ -1,4 +1,5 @@
 # assign_role.py
+sys.modules["audioop"] = types.ModuleType("audioop")
 import discord
 
 async def assign_role_to_member(bot, member: discord.Member, role_name: str):
