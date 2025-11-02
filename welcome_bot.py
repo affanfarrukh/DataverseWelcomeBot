@@ -61,5 +61,5 @@ async def on_member_join(member):
     await setup_onboarding_message(bot)  # <-- Post the onboarding message in #general
     await start_introduction(bot, member, intro_channel)
 
-
-bot.run(os.getenv("TOKEN"))
+load_dotenv()
+bot.run(os.getenv("Nova_Bot_Token"))
