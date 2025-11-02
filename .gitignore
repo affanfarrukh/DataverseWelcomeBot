@@ -1,0 +1,9 @@
+# Hide environment and secret files
+.env
+__pycache__/
+*.pyc
+.idea/
+venv/
+*.log
+# Ignore credentials and sensitive files
+credentials.json
